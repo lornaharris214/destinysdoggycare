@@ -1,0 +1,46 @@
+/* Destiny's website was created and coded by Lorna Harris */
+
+/* Global */
+
+/* Header & Nav */
+
+header {
+    width: 100%;
+    height: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+header h1 {
+    font-size: 100px;
+    margin-top: -2px;
+}
+
+header p {
+    font-size: 14px;
+    margin-top: -90px;
+    padding-left: 125px;
+}
+
+/* Body */
+
+body {
+    background-color: black;
+}
+
+/* SVG */
+
+.logo {
+   height: 800px;
+   z-index: 0;
+}
+
+.logobox {
+    text-align: center;
+    margin-top: -15px;
+}
+
+/* Footer */
+
+/* Media Queries */
