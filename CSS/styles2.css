@@ -3,6 +3,10 @@
 body {
 /*    background-color: #231F20; */
 }
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
 /* Banner */
 .logobox {
     width: 40%;
