@@ -7,18 +7,11 @@ body {
 * {
     font-family: 'Fira Sans', sans-serif;
 }
-/* Banner */
-.logobox {
-    width: 40%;
-    text-align: center;
-}
 
-.logo {
-    width: 10%;
-}
+/* Banner */
 
 .banner {
-    width: 20%;
+    width: 200px;
     top: 0;
     align-content: center;
     z-index: 1;
@@ -151,9 +144,11 @@ body {
 
 .bannerbox {
     text-align: left;
-    margin-top: -20px;
+    margin-top: 0;
     margin-left: 20px;
 }
+    
+.
 
 .navbar {
     background-color: #231F20; 
@@ -164,6 +159,7 @@ body {
     height: 150px;
     width: 100%;
 }
+
     .leftsidenav li {
         font-size: .5em;
         text-align: right;
