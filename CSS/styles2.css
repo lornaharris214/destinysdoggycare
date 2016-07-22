@@ -1,0 +1,79 @@
+/* Body */
+
+body {
+/*    background-color: #231F20; */
+}
+/* Banner */
+.logobox {
+    width: 40%;
+    text-align: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.banner {
+    width: 20%;
+    top: 0;
+    align-content: center;
+    z-index: 1;
+}
+
+.bannerbox {
+    text-align: center;
+    margin-top: -90px;
+}
+
+.navbar {
+    background-color: #231F20; 
+    color: white;
+    margin-top: -550px;
+    padding-top: 120px;
+    top: 0;
+    height: 150px;
+    width: 100%;
+}
+
+/* List Items */
+
+.leftsidenav li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 40pt;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.leftsidenav li:hover {
+    text-decoration: underline;
+}
+
+/* Sliding Advertisement */
+
+.advert {
+    background: url(../IMG/dog2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #30A6C6;
+    color: #231F20;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+/* Media Queries */
+
+
