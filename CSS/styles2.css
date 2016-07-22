@@ -46,6 +46,10 @@ body {
     padding-top: 20px;
 }
 
+.leftsidenav a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
 .leftsidenav li:hover {
     text-decoration: underline;
 }
