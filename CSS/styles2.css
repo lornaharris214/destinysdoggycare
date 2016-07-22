@@ -87,6 +87,24 @@ body {
     text-align: center;
 }
 
+/* About Page */
+
+.description {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+.description h1 {
+    font-size: 40pt;
+}
+
+.description p {
+    background-color: rgba(10, 10, 10, .10);
+    padding: 100px 50px 100px 50px;
+    border-radius: 25%;
+}
 /* Footer */
 
 .footer {
