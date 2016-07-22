@@ -45,7 +45,7 @@ body {
     display: inline-block;
     list-style: none;
     text-decoration: none;
-    font-size: 40pt;
+    font-size: 3em;
     padding-left: 60px;
     padding-top: 20px;
 }
@@ -67,6 +67,15 @@ body {
     background-size: cover;
     width: 100%;
     height: 600px;
+    margin-top: -150px;
+}
+
+.advert p {
+    color: white;
+    font-size: 100pt;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 300px;
+    text-align: center;
 }
 
 .advert2 {
@@ -86,6 +95,25 @@ body {
     padding-top: 300px;
     text-align: center;
 }
+
+.advert3 {
+    background: url(../IMG/peanutbutter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: -150px;
+}
+
+.advert3 p {
+    color: white;
+    font-size: 100pt;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 300px;
+    text-align: center;
+}
+
 
 /* About Page */
 
@@ -119,4 +147,26 @@ body {
 
 /* Media Queries */
 
+@media all and (max-width: 780px) {
 
+.bannerbox {
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color: #231F20; 
+    color: white;
+    margin-top: -350px;
+    padding-top: 120px;
+    top: 0;
+    height: 150px;
+    width: 100%;
+}
+    .leftsidenav li {
+        font-size: .5em;
+        text-align: right;
+        margin-top: 2px;
+    }
+}
